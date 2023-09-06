@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: linear-gradient(70deg,navy , #000000);
+    color: rgb(174, 215, 215);
+}
+.title{
+    font-size: large;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    margin: 10px 40px auto ;
+    flex-direction: column;
+}
+h1,h5{
+    margin: 50px;
+}
+.video{
+    font-size: large;
+    display: flex;
+    margin: 40px auto;
+    flex-direction: column;
+
+}
+.video iframe{
+    width: 70vw;
+    aspect-ratio: 4/2;
+    margin: 10px auto;
+    padding: 2px;
+    z-index: 2;
+    border: 1px solid white;
+    box-shadow: 1px 3px 2px 5px white;
+    border-radius: 20px ;
+}
+.checkboxs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.checkbox{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+    gap: 10px;
+    line-height: 19px;
+    min-width: 470px;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+.checkbox i{
+   color: rgb(243, 243, 247);
+}
