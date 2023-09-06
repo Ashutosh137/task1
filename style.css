@@ -5,11 +5,11 @@
 
 body{
     background: linear-gradient(70deg,navy , #000000);
-    color: rgb(174, 215, 215);
+    color:rgb(179, 220, 220)
 }
 .title{
     font-size: large;
-    height: 300px;
+    height: 80vh;
     text-align: center;
     display: flex;
     margin: 10px 40px auto ;
@@ -26,19 +26,19 @@ h1,h5{
 
 }
 .video iframe{
-    width: 70vw;
-    aspect-ratio: 4/2;
+    width: 60vw;
+    height: 37vh;
     margin: 10px auto;
     padding: 2px;
     z-index: 2;
     border: 1px solid white;
-    box-shadow: 1px 3px 2px 5px white;
+    box-shadow: 1px 3px 12px 2px white;
     border-radius: 20px ;
 }
 .checkboxs{
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 20px;px auto;
 }
 .checkbox{
     display: flex;
@@ -47,7 +47,6 @@ h1,h5{
     gap: 10px;
     line-height: 19px;
     min-width: 470px;
-    white-space: nowrap;
     margin-left: 20px;
 }
 .checkbox i{
