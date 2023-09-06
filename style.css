@@ -9,7 +9,7 @@ body{
 }
 .title{
     font-size: large;
-    height: 80vh;
+    height: 300px;
     text-align: center;
     display: flex;
     margin: 10px 40px auto ;
